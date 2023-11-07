@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { AiFillHome } from "react-icons/ai"
 
 export const HomeButtonStyled = styled(Link)`
-  height: 56px;
-  width: 56px;
+  height: 48px;
+  width: 48px;
   border-radius: 50%;
   background-color: #fff;
   color: #091A2C;
@@ -13,11 +13,10 @@ export const HomeButtonStyled = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
   text-decoration: none;
 `;
 
 export const HomeIcon = styled(AiFillHome)`
-  height: 32px;
-  width: 32px;
+  height: 24px;
+  width: 24px;
 `

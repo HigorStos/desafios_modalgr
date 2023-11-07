@@ -9,7 +9,9 @@ const Header = ({ showHomeButton }: Props) => {
   return (
     <>
       <MainHeader>
-        <Logo src='./logo-modalgr.png' />
+        <a href="https://modalgr.com.br/" target="_blank" rel="noreferrer">
+          <Logo src='./logo-modalgr.png' />
+        </a>
         {showHomeButton ? <HomeButton /> : ''}
       </MainHeader>
     </>
