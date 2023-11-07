@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MainForm = styled.form`
-  margin-top: 40px;
+  margin-top: 20px;
 `
 
 export const InputDiv = styled.div`

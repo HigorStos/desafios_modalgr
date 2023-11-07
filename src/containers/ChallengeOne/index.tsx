@@ -2,7 +2,7 @@ import { useState } from "react"
 import { HmacMD5, HmacSHA256, HmacSHA384 } from 'crypto-js';
 
 import { Container, Title } from "../../styles"
-import { PasswordForm, PasswordTitle, PasswordCrypted } from "./styles"
+import { PasswordForm, PasswordTitle, PasswordCrypted, SecretKey } from "./styles"
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
@@ -22,6 +22,7 @@ const ChallengeOne = () => {
       <Header showHomeButton={true} />
       <Container>
         <Title>Desafio 1 - Criptografia de Senhas</Title>
+        <SecretKey>Chave Secreta: #modalGR#GPTW#top#maiorEmpresaTecnologia#baixadaSantista</SecretKey>
         <PasswordForm>
           <input value={passwordOne} type="text" placeholder="Digite a primeira senha" onChange={(e) => setPasswordOne(e.target.value)} />
           <input value={passwordTwo} type="text" placeholder="Digite a segunda senha" onChange={(e) => setPasswordTwo(e.target.value)}  />

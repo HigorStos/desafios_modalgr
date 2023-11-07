@@ -1,9 +1,14 @@
 import styled from 'styled-components';
 
+export const SecretKey = styled.h2`
+  color: #fff;
+  margin-top: 24px;
+`
+
 export const PasswordForm = styled.form`
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 32px;
   gap: 16px;
 
   input {
@@ -17,7 +22,7 @@ export const PasswordTitle = styled.h2`
   color: #fff;
   font-size: 24px;
   font-weight: bold;
-  margin-top: 40px;
+  margin-top: 32px;
   text-align: center;
 `
 
