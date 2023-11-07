@@ -46,10 +46,11 @@ const ChallengeThree = () => {
     }
 
     if (validAmount && validCollaborator && name.length > 0){
+      setLoanApproved(true)
+      
       calcHigherNotes(loanAmount)
       calcLowerNotes(loanAmount)
       calcHalfNotes(loanAmount)
-      setLoanApproved(true)
     } else if (name.length === 0){
       alert("Por favor, insira o seu nome!")
     } else if (validCollaborator === false){
