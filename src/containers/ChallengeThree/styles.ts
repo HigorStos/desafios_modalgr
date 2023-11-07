@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 export const MainForm = styled.form`
   margin-top: 20px;
+
+  @media screen and (max-width: 767px) {
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 export const InputDiv = styled.div`
@@ -12,6 +17,13 @@ export const InputDiv = styled.div`
 
 export const CollaboratorInfosDiv = styled.div`
   display: flex;
+  
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 `
 
 export const CollaboratorLabel = styled.label`
@@ -19,6 +31,10 @@ export const CollaboratorLabel = styled.label`
   font-weight: bold;
   color: #fff;
   margin-bottom: 8px;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 16px;
+  }
 `
 
 export const CollaboratorInput = styled.input`
@@ -42,6 +58,11 @@ export const NotesTypeMainDiv = styled.div`
   div {
     display: flex;
     justify-content: space-around;
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      text-align: center;
+  }
   }
 `
 
@@ -54,6 +75,10 @@ export const NotesTypeDiv = styled.div`
 
   input {
     cursor: pointer;
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 32px;
+    }
   }
 `
 
