@@ -14,6 +14,15 @@ export const HomeButtonStyled = styled(Link)`
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  transition: all 200ms ease;
+
+  &:hover {
+    transform: scale(1.04);
+  }
+
+  &:active {
+    transform: translateY(2px);
+  }
 `;
 
 export const HomeIcon = styled(AiFillHome)`

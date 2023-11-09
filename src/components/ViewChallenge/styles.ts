@@ -20,4 +20,13 @@ export const ChallengeButton = styled(Link)`
   cursor: pointer;
   text-decoration: none;
   margin-bottom: 240px;
+  transition: all 200ms ease;
+
+  &:hover {
+    transform: scale(1.04);
+  }
+
+  &:active {
+    transform: translateY(8px);
+  }
 `
