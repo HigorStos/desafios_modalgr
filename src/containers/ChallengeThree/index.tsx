@@ -35,7 +35,7 @@ const ChallengeThree = () => {
 
   const notesCalc = () => {
     const minAmount = salary * 2
-    const validAmount: boolean = (loanAmount >= minAmount) && (loanAmount % 2 === 0) && (salary > 1)
+    const validAmount: boolean = (loanAmount >= minAmount) && (loanAmount % 2 === 0) && (salary > 0)
     let validCollaborator: boolean = false
 
     const diffInMs = currentDate.getTime() - admissionDate.getTime();
